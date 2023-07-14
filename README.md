@@ -1,4 +1,6 @@
 # 19 Progressive Web Applications (PWA): Text Editor
+![image](https://img.shields.io/badge/License-MIT-slateblue.svg)
+
 ### by Dan McKay
 
 * This is the assignment for Week 19 of the Full Stack Coding Bootcamp as offered through UC Berkeley Continuing Education in partnership with edX.
