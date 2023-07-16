@@ -1,6 +1,9 @@
 {
   "name": "JATE",
-  "version": "1.0.1",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.15"
+  },
   "description": "JATE is an installable in-browser text editor that can also be installed as a separate app and even used offline.",
   "main": "server.js",
   "scripts": {
