@@ -108,7 +108,7 @@ module.exports = () => {
 				inject: true,
 				icons: [
 					{
-						src: path.resolve('src/images/logo.png'),
+						src: path.resolve('../assets/icons/logo.png'),
 						sizes: [96, 128, 192, 256, 384, 512],
 						destination: path.join('assets', 'icons'),
 					},
