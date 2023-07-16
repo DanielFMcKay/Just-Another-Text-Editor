@@ -29,24 +29,25 @@ module.exports = () => {
         swDest: '/src-sw.js',
       }),
 
-      new WebpackPwaManifest({
-        name: 'Jate',
-        short_name: 'Jate',
-        description: 'Jate is a Just Another NoteTaking Editor',
-        background_color: '#262d35',
-        theme_color: '#333456',
-        start_url: '/',
-        publicPath: '/',
-        fingerprints: false,
+			new WebpackPwaManifest({
+				name: 'JATE',
+				short_name: 'JATE',
+				description: 'Just Another Text Editor',
+				display: 'standalone',
+				background_color: '#1e1e1e',
+				theme_color: '#1e1e1e',
+				start_url: '/',
+				publicPath: '/',
+				fingerprints: false,
 				inject: true,
-        icons: [
-        {
-        src: path.resolve('src/images/logo.png'),
-        sizes: [96, 128, 192, 256, 384, 512],
-        destination: path.join('assets', 'icons')
-        },
-        ],
-      }),
+				icons: [
+					{
+						src: path.resolve('src/images/logo.png'),
+						sizes: [96, 128, 192, 256, 384, 512],
+						destination: path.join('assets', 'icons'),
+					},
+				],
+			}),
     ],
 
     module: {
