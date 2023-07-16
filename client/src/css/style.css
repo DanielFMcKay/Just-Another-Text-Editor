@@ -4,11 +4,16 @@
   --gray: #ececec;
   --whitesmoke: #f5f5f5;
   --dark: #222;
-  --monoaki: #191a18;
+  --monoaki: #1a1a18;
   --navbar-height: 50px;
 }
 
+html {
+  min-height: 60rem;
+}
+
 body {
+  background-size: cover;
   margin: 0;
   background-color: var(--monoaki);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
