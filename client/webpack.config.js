@@ -91,6 +91,10 @@ module.exports = () => {
 			new HtmlWebpackPlugin({
 				template: './index.html',
 			}),
+      new InjectManifest({
+				swSrc: './src-sw.js',
+				swDest: 'service-worker.js',
+			}),
 			new WebpackPwaManifest({
 				name: 'JATE',
 				short_name: 'JATE',
@@ -109,10 +113,6 @@ module.exports = () => {
 						destination: path.join('assets', 'icons'),
 					},
 				],
-			}),
-			new InjectManifest({
-				swSrc: './src-sw.js',
-				swDest: 'service-worker.js',
 			}),
 		],
 
