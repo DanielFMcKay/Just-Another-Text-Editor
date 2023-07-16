@@ -1,0 +1,25 @@
+(node:1373) [DEP_WEBPACK_COMPILATION_ASSETS] DeprecationWarning: Compilation.assets will be frozen in future, all modifications are deprecated.
+BREAKING CHANGE: No more changes should happen to Compilation.assets after sealing the Compilation.
+        Do changes to assets earlier, e. g. in Compilation.hooks.processAssets.
+        Make sure to select an appropriate stage from Compilation.PROCESS_ASSETS_STAGE_*.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[webpack-cli] [Error: EROFS: read-only file system, open '/src-sw.js'] {
+  errno: -30,
+  code: 'EROFS',
+  syscall: 'open',
+  path: '/src-sw.js'
+}
+
+-----> Build failed
+       
+       We're sorry this build is failing! You can troubleshoot common issues here:
+       https://devcenter.heroku.com/articles/troubleshooting-node-deploys
+       If you're stuck, please submit a ticket so we can help:
+       https://help.heroku.com/
+       Love,
+       Heroku
+ !     Push rejected, failed to compile Node.js app.
+
+ !     Push failed
+Verifying deploy...
+!       Push rejected to radiant-woodland-55870.
