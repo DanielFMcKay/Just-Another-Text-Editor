@@ -22,7 +22,7 @@ As a standalone editor, JATE can edit one text file at a time and automatically 
 
 You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
 
-## Deployed Site: [https://stormy-retreat-26827-4e1712e5ec06.herokuapp.com/]
+### Deployed Site: [here](https://stormy-retreat-26827-4e1712e5ec06.herokuapp.com/)
 
 
 ## User Story
