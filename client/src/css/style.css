@@ -17,12 +17,12 @@ body {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 1.5rem;
 }
 
 #navbar {
   height: var(--navbar-height);
-  background-color: var(--primary);
+  background: linear-gradient(#6969c2, #9d9ded);
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
@@ -35,6 +35,7 @@ h1 {
 
 .navbar-brand img {
   padding-top: 10px;
+  padding-right: 6px;
 }
 
 .loading-spinner {
@@ -93,6 +94,11 @@ h1 {
   color: #1a1a1a;
   background-color: #aeaeae;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.class CodeMirror-line {
+  background: transparent;
+  border-bottom: 1px dashed #484848;
 }
 
 .btn:hover {
